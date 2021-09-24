@@ -1,0 +1,32 @@
+<p-menubar [model]="items">
+  <ng-template pTemplate="start">
+    <img
+      src="https://firebasestorage.googleapis.com/v0/b/evito-f3bad.appspot.com/o/Logo.png?alt=media&token=74303a63-e2e2-4ae8-b33b-f32c6a83b830"
+      height="40"
+      class="p-mr-2"
+      (click)="visibleSidebar1 = true"
+    />
+  </ng-template>
+  <!-- <ng-template pTemplate="end">
+    <input type="text" pInputText placeholder="Search" />
+  </ng-template> -->
+</p-menubar>
+
+<p-sidebar
+  [(visible)]="visibleSidebar1"
+  [baseZIndex]="10000"
+  [showCloseIcon]="false"
+>
+  <img
+    class="sideBarLogo"
+    src="https://firebasestorage.googleapis.com/v0/b/evito-f3bad.appspot.com/o/Logo.png?alt=media&token=74303a63-e2e2-4ae8-b33b-f32c6a83b830"
+  />
+
+  <p-tree
+    [value]="files1"
+    selectionMode="single"
+    [(selection)]="selectedFile"
+    (onNodeSelect)="nodeSelect($event)"
+    (onNodeUnselect)="nodeUnselect($event)"
+  ></p-tree>
+</p-sidebar>

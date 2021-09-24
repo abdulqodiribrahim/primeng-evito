@@ -1,0 +1,201 @@
+{
+  "data": [
+    {
+      "label": "Master",
+      "data": "Master Folder",
+      "expandedIcon": "pi pi-folder-open",
+      "collapsedIcon": "pi pi-folder",
+      "children": [
+        {
+          "label": "Gudang",
+          "icon": "pi pi-image",
+          "data": "/master-gudang"
+        },
+        {
+          "label": "Pegawai",
+          "icon": "pi pi-image",
+          "data": "/master-pegawai"
+        },
+        {
+          "label": "Supplier",
+          "icon": "pi pi-image",
+          "data": "/master-supplier"
+        },
+        {
+          "label": "Customer",
+          "icon": "pi pi-image",
+          "data": "/master-customer"
+        },
+        {
+          "label": "Golongan",
+          "icon": "pi pi-image",
+          "data": "/master-golongan"
+        },
+        {
+          "label": "Area",
+          "icon": "pi pi-image",
+          "data": "/master-area"
+        },
+        {
+          "label": "Sales",
+          "icon": "pi pi-image",
+          "data": "/master-sales"
+        },
+        {
+          "label": "Satuan",
+          "icon": "pi pi-image",
+          "data": "/master-satuan"
+        },
+        {
+          "label": "Barang",
+          "icon": "pi pi-image",
+          "data": "/master-barang"
+        },
+        {
+          "label": "Produksi",
+          "icon": "pi pi-image",
+          "data": "/master-produksi"
+        },
+        {
+          "label": "Kategori",
+          "data": "Kategori Folder",
+          "expandedIcon": "pi pi-folder-open",
+          "collapsedIcon": "pi pi-folder",
+          "children": [
+            {
+              "label": "Produksi",
+              "icon": "pi pi-image",
+              "data": "/master-kategori-produksi"
+            },
+            {
+              "label": "Jasa",
+              "icon": "pi pi-image",
+              "data": "/master-kategori-jasa"
+            },
+            {
+              "label": "Pengeluaran",
+              "icon": "pi pi-image",
+              "data": "/master-kategori-pengeluaran"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Transaksi",
+      "data": "Transaksi Folder",
+      "expandedIcon": "pi pi-folder-open",
+      "collapsedIcon": "pi pi-folder",
+      "children": [
+        {
+          "label": "Saldo Kas",
+          "icon": "pi pi-image",
+          "data": "Barcelona Photo"
+        },
+        {
+          "label": "Pembelian",
+          "icon": "pi pi-image",
+          "data": "PrimeFaces Logo"
+        },
+        {
+          "label": "Penjualan",
+          "icon": "pi pi-image",
+          "data": "PrimeUI Logo"
+        },
+        {
+          "label": "Retur Pembelian",
+          "icon": "pi pi-image",
+          "data": "PrimeUI Logo"
+        },
+        {
+          "label": "Retur Penjualan",
+          "icon": "pi pi-image",
+          "data": "PrimeUI Logo"
+        },
+        {
+          "label": "Pembayaran Fee",
+          "icon": "pi pi-image",
+          "data": "PrimeUI Logo"
+        },
+        {
+          "label": "Saldo Awal Piutang",
+          "icon": "pi pi-image",
+          "data": "PrimeUI Logo"
+        },
+        {
+          "label": "Bayar Hutang Supplier",
+          "icon": "pi pi-image",
+          "data": "PrimeUI Logo"
+        },
+        {
+          "label": "Bayar Hutang Customer",
+          "icon": "pi pi-image",
+          "data": "PrimeUI Logo"
+        },
+        {
+          "label": "Mutasi Barang",
+          "icon": "pi pi-image",
+          "data": "PrimeUI Logo"
+        },
+        {
+          "label": "Stock Opname",
+          "icon": "pi pi-image",
+          "data": "PrimeUI Logo"
+        },
+        {
+          "label": "Pengeluaran Lain-lain",
+          "icon": "pi pi-image",
+          "data": "PrimeUI Logo"
+        }
+      ]
+    },
+    {
+      "label": "Tools",
+      "data": "Tools Folder",
+      "expandedIcon": "pi pi-folder-open",
+      "collapsedIcon": "pi pi-folder",
+      "children": [
+        {
+          "label": "Al Pacino",
+          "data": "Pacino Movies",
+          "children": [
+            {
+              "label": "Scarface",
+              "icon": "pi pi-video",
+              "data": "Scarface Movie"
+            },
+            {
+              "label": "Serpico",
+              "icon": "pi pi-video",
+              "data": "Serpico Movie"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Cetak",
+      "data": "Cetak Folder",
+      "expandedIcon": "pi pi-folder-open",
+      "collapsedIcon": "pi pi-folder",
+      "children": [
+        {
+          "label": "Al Pacino",
+          "data": "Pacino Movies",
+          "children": [
+            {
+              "label": "Scarface",
+              "icon": "pi pi-video",
+              "data": "Scarface Movie"
+            },
+            {
+              "label": "Serpico",
+              "icon": "pi pi-video",
+              "data": "Serpico Movie"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
